@@ -92,7 +92,7 @@ class App extends Component {
       <div className="App">
         <div data-ts="MainContent">
           <div className="content-container">
-            <h1 className="title">Enter sides to check triangle&apos;s type</h1>
+            <h1 className="title">Enter sides to check triangle type</h1>
 
             {triangleTypeResult && (
               <div className="triangle-type-container">
