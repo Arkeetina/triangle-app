@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.triangle-type-container {
+  margin: 10px 0;
+  transition-timing-function: ease-in;
+  transition: 0.5s;
+}
+
+.triangle-type-logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.content-container {
+  max-width: 86vw;
+  margin: 0 auto;
+}
+
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-inputs-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title {
+  font-weight: 300;
+  font-size: 32px;
+}
+.form-text {
+  font-weight: 300;
+  font-size: 18px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.calculate-button {
+  margin-bottom: 10px;
+}
+@media(min-width: 380px) {
+  .content-container {
+    max-width: 75vw;
+    margin: 0 auto;
+  }
+}
+
+@media(min-width: 620px) {
+  .content-container {
+    max-width: 65vw;
+    margin: 0 auto;
+  }
+}
+@media(min-width: 768px) {
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
+
+@media(min-width: 1120px) {
+  .content-container {
+    max-width: 40vw;
+    margin: 0 auto;
+  }
+}
